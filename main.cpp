@@ -14,8 +14,8 @@ int main()
 
     double cell_start = 1;
     double cell_end = 10;
-    boost::array<double,3> position = {100,-182,0};
-    boost::array<double,3> velocity = {1,0,0}; // this is in N,E,D directions. In the previous filter this is not the case.
+    boost::array<double,3> position = {100.0,-182.0,0.0};
+    boost::array<double,3> velocity = {1.0,0.5,0}; // this is in N,E,D directions. In the previous filter this is not the case.
     boost::array<double,3> euler = {0,0,0};
     double depth_cell_size = 1;
     double blank_d = 0.1;
